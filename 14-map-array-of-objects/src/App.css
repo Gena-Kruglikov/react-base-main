@@ -1,0 +1,14 @@
+.App {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1em; 
+  justify-content: center; 
+  align-items: center; 
+  text-align: center;
+}
+
+.person-card {
+  border: 1px solid #ccc; 
+  padding: 1em;
+}
+

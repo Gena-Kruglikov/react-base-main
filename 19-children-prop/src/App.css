@@ -1,0 +1,46 @@
+/* Общий стиль для компонента App */
+.App {
+  text-align: center;
+}
+
+/* Стили для разных цветов обёрток */
+.lightblue {
+  background-color: lightblue;
+  padding: 15px;
+  border-radius: 5px; 
+  margin: 10px;
+}
+
+.lightgreen {
+  background-color: lightgreen;
+  padding: 15px;
+  border-radius: 5px; 
+  margin: 10px;
+}
+
+/* Стиль для заголовка внутри обёртки */
+.App h2 {
+  color: darkblue;
+}
+
+/* Стиль для описания внутри обёртки */
+.App p {
+  color: darkgreen;
+}
+
+/* Стиль для кнопки внутри обёртки */
+.App button {
+  padding:8px 12px;
+  border:none;
+  cursor: pointer;
+  border-radius:5px;
+  background: darkblue;
+  color:white;
+}
+
+/* Стиль для ввода текста внутри обёртки */
+.App input {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
